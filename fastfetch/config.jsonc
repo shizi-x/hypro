@@ -1,0 +1,102 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/shizai/Pictures/Wallpapers/arch.png",
+    "height": 18
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┌───────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "chassis",
+      "key": "  󰇺 ",
+      "format": "{2}"
+    },
+    {
+      "type": "os",
+      "key": "  󰣇 ",
+      "format": "{2}",
+      "keyColor": "red"
+    },
+    {
+      "type": "kernel",
+      "key": "   ",
+      "format": "{2}",
+      "keyColor": "red"
+    },
+    {
+      "type": "packages",
+      "key": "  󰏗 ",
+      "keyColor": "white",
+      "managers": [
+   	 "pacman",
+   	 "yay",
+   	 "aur",
+   	 "dpkg",
+   	 "flatpak"
+ 	 ]
+    },
+    {
+      "type": "display",
+      "key": "  󰍹 ",
+      "format": "{1}x{2} @ {3}Hz [{7}]",
+      "keyColor": "green"
+    },
+    {
+      "type": "terminal",
+      "key": "   ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wm",
+      "key": "  󱗃 ",
+      "format": "{2}",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "gpu",
+      "format": "{1} {2}",
+      "key": "  󰊴 ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "gpu",
+      "format": "{3}",
+      "key": "   ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "memory",
+       "key": "  = ",
+      "keyColor": "red"
+    },
+    {
+      "type": "disk",
+      "key": "  󱦟 ",
+      "folders": "/",
+      "keyColor": "white",
+      "format": "{days} days"
+    },
+    {
+      "type": "uptime",
+      "key": "  󱫐 ",
+      "keyColor": "white"
+    },
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────────────────────┘"
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    },
+    "break"
+  ]
+}
+

@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Red",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "window.titleSeparator": "",
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none"
+}

@@ -1,0 +1,194 @@
+2025-07-17 20:14:40.648 [info] ComputeTargetPlatform: linux-x64
+2025-07-17 20:15:52.618 [info] ComputeTargetPlatform: linux-x64
+2025-07-17 20:16:13.470 [info] Getting Manifest... ms-python.python
+2025-07-17 20:16:15.703 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-17 20:16:16.086 [info] Getting Manifest... ms-python.debugpy
+2025-07-17 20:16:16.609 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:16:26.967 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 1854ms.
+2025-07-17 20:16:27.450 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 1619ms.
+2025-07-17 20:16:28.303 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64: ms-python.debugpy
+2025-07-17 20:16:28.334 [info] Renamed to /home/shizai/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64
+2025-07-17 20:16:29.201 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal: ms-python.python
+2025-07-17 20:16:29.340 [info] Renamed to /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal
+2025-07-17 20:16:29.367 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:16:29.367 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:17:07.068 [info] Getting Manifest... kylinideteam.kylin-cpp-pack
+2025-07-17 20:17:07.588 [info] Installing extension: kylinideteam.kylin-cpp-pack {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-17 20:17:08.015 [info] Getting Manifest... kylinideteam.cppdebug
+2025-07-17 20:17:08.547 [info] Getting Manifest... kylinideteam.kylin-clangd
+2025-07-17 20:17:09.413 [info] Getting Manifest... redhat.vscode-yaml
+2025-07-17 20:17:09.942 [info] Getting Manifest... kylinideteam.kylin-cmake-tools
+2025-07-17 20:17:10.812 [info] Getting Manifest... kylinideteam.cmake-intellisence
+2025-07-17 20:17:11.335 [info] Installing extension: kylinideteam.cppdebug {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:17:11.335 [info] Installing extension: kylinideteam.kylin-clangd {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:17:11.336 [info] Installing extension: redhat.vscode-yaml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:17:11.336 [info] Installing extension: kylinideteam.kylin-cmake-tools {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:17:11.338 [info] Installing extension: kylinideteam.cmake-intellisence {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:17:16.528 [info] Extension signature verification result for kylinideteam.kylin-cpp-pack: Success. Executed: true. Duration: 1697ms.
+2025-07-17 20:17:16.552 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/kylinideteam.kylin-cpp-pack-0.1.0-universal: kylinideteam.kylin-cpp-pack
+2025-07-17 20:17:16.557 [info] Renamed to /home/shizai/.vscode-oss/extensions/kylinideteam.kylin-cpp-pack-0.1.0-universal
+2025-07-17 20:17:16.830 [info] Extension signature verification result for kylinideteam.cmake-intellisence: Success. Executed: true. Duration: 1678ms.
+2025-07-17 20:17:16.905 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/kylinideteam.cmake-intellisence-0.3.5-universal: kylinideteam.cmake-intellisence
+2025-07-17 20:17:16.910 [info] Renamed to /home/shizai/.vscode-oss/extensions/kylinideteam.cmake-intellisence-0.3.5-universal
+2025-07-17 20:17:17.206 [info] Extension signature verification result for kylinideteam.kylin-cmake-tools: Success. Executed: true. Duration: 663ms.
+2025-07-17 20:17:17.508 [info] Extension signature verification result for redhat.vscode-yaml: Success. Executed: true. Duration: 1185ms.
+2025-07-17 20:17:17.616 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.0.4-universal: kylinideteam.kylin-cmake-tools
+2025-07-17 20:17:17.641 [info] Renamed to /home/shizai/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.0.4-universal
+2025-07-17 20:17:17.658 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/redhat.vscode-yaml-1.18.0-universal: redhat.vscode-yaml
+2025-07-17 20:17:17.671 [info] Renamed to /home/shizai/.vscode-oss/extensions/redhat.vscode-yaml-1.18.0-universal
+2025-07-17 20:17:34.502 [info] Extension signature verification result for kylinideteam.cppdebug: Success. Executed: true. Duration: 1505ms.
+2025-07-17 20:17:35.820 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/kylinideteam.cppdebug-0.0.9-linux-x64: kylinideteam.cppdebug
+2025-07-17 20:17:35.842 [info] Renamed to /home/shizai/.vscode-oss/extensions/kylinideteam.cppdebug-0.0.9-linux-x64
+2025-07-17 20:17:48.468 [info] Extension signature verification result for kylinideteam.kylin-clangd: Success. Executed: true. Duration: 1397ms.
+2025-07-17 20:17:48.798 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/kylinideteam.kylin-clangd-0.4.0-linux-x64: kylinideteam.kylin-clangd
+2025-07-17 20:17:48.805 [info] Renamed to /home/shizai/.vscode-oss/extensions/kylinideteam.kylin-clangd-0.4.0-linux-x64
+2025-07-17 20:17:48.846 [info] Extension installed successfully: kylinideteam.kylin-cpp-pack vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:17:48.847 [info] Extension installed successfully: kylinideteam.cmake-intellisence vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:17:48.847 [info] Extension installed successfully: kylinideteam.kylin-cmake-tools vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:17:48.848 [info] Extension installed successfully: redhat.vscode-yaml vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:17:48.848 [info] Extension installed successfully: kylinideteam.cppdebug vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:17:48.849 [info] Extension installed successfully: kylinideteam.kylin-clangd vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:18:09.555 [info] Getting Manifest... muhammad-sammy.csharp
+2025-07-17 20:18:10.097 [info] Installing extension: muhammad-sammy.csharp {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-17 20:18:10.464 [info] Getting Manifest... ms-dotnettools.vscode-dotnet-runtime
+2025-07-17 20:18:10.978 [info] Installing extension: ms-dotnettools.vscode-dotnet-runtime {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:18:14.165 [info] Extension signature verification result for ms-dotnettools.vscode-dotnet-runtime: Success. Executed: true. Duration: 1294ms.
+2025-07-17 20:18:14.256 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.6-universal: ms-dotnettools.vscode-dotnet-runtime
+2025-07-17 20:18:14.263 [info] Renamed to /home/shizai/.vscode-oss/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.6-universal
+2025-07-17 20:18:55.002 [info] Extension signature verification result for muhammad-sammy.csharp: Success. Executed: true. Duration: 1661ms.
+2025-07-17 20:18:58.047 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/muhammad-sammy.csharp-2.84.19-universal: muhammad-sammy.csharp
+2025-07-17 20:18:58.160 [info] Renamed to /home/shizai/.vscode-oss/extensions/muhammad-sammy.csharp-2.84.19-universal
+2025-07-17 20:18:58.207 [info] Extension installed successfully: ms-dotnettools.vscode-dotnet-runtime vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:18:58.207 [info] Extension installed successfully: muhammad-sammy.csharp vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:25.032 [info] Getting Manifest... gydunhn.javascript-essentials
+2025-07-17 20:19:25.583 [info] Installing extension: gydunhn.javascript-essentials {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-17 20:19:26.042 [info] Getting Manifest... christian-kohler.npm-intellisense
+2025-07-17 20:19:26.580 [info] Getting Manifest... dbaeumer.vscode-eslint
+2025-07-17 20:19:27.105 [info] Getting Manifest... gydunhn.vsc-essentials-core
+2025-07-17 20:19:28.131 [info] Getting Manifest... alefragnani.bookmarks
+2025-07-17 20:19:28.705 [info] Getting Manifest... oderwat.indent-rainbow
+2025-07-17 20:19:29.230 [info] Getting Manifest... ibm.output-colorizer
+2025-07-17 20:19:29.756 [info] Getting Manifest... gruntfuggly.todo-tree
+2025-07-17 20:19:30.287 [info] Getting Manifest... davidanson.vscode-markdownlint
+2025-07-17 20:19:30.807 [info] Getting Manifest... bierner.emojisense
+2025-07-17 20:19:31.337 [info] Getting Manifest... christian-kohler.path-intellisense
+2025-07-17 20:19:31.864 [info] Getting Manifest... aaron-bond.better-comments
+2025-07-17 20:19:32.387 [info] Getting Manifest... yzhang.markdown-all-in-one
+2025-07-17 20:19:32.913 [info] Getting Manifest... tombonnike.vscode-status-bar-format-toggle
+2025-07-17 20:19:33.434 [info] Getting Manifest... usernamehw.errorlens
+2025-07-17 20:19:33.963 [info] Getting Manifest... xabikos.javascriptsnippets
+2025-07-17 20:19:34.502 [info] Getting Manifest... firefox-devtools.vscode-firefox-debug
+2025-07-17 20:19:35.060 [info] Installing extension: christian-kohler.npm-intellisense {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.061 [info] Installing extension: dbaeumer.vscode-eslint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.061 [info] Installing extension: gydunhn.vsc-essentials-core {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.061 [info] Installing extension: alefragnani.bookmarks {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.062 [info] Installing extension: oderwat.indent-rainbow {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.062 [info] Installing extension: ibm.output-colorizer {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.062 [info] Installing extension: gruntfuggly.todo-tree {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.065 [info] Installing extension: davidanson.vscode-markdownlint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.065 [info] Installing extension: bierner.emojisense {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.066 [info] Installing extension: christian-kohler.path-intellisense {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.066 [info] Installing extension: aaron-bond.better-comments {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.066 [info] Installing extension: yzhang.markdown-all-in-one {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.069 [info] Installing extension: tombonnike.vscode-status-bar-format-toggle {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.069 [info] Installing extension: usernamehw.errorlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.070 [info] Installing extension: xabikos.javascriptsnippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:35.070 [info] Installing extension: firefox-devtools.vscode-firefox-debug {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:19:41.774 [info] Extension signature verification result for gydunhn.javascript-essentials: Success. Executed: true. Duration: 1259ms.
+2025-07-17 20:19:41.820 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/gydunhn.javascript-essentials-0.3.0-universal: gydunhn.javascript-essentials
+2025-07-17 20:19:41.826 [info] Renamed to /home/shizai/.vscode-oss/extensions/gydunhn.javascript-essentials-0.3.0-universal
+2025-07-17 20:19:41.884 [info] Extension signature verification result for davidanson.vscode-markdownlint: Success. Executed: true. Duration: 1151ms.
+2025-07-17 20:19:41.923 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/davidanson.vscode-markdownlint-0.60.0-universal: davidanson.vscode-markdownlint
+2025-07-17 20:19:41.928 [info] Renamed to /home/shizai/.vscode-oss/extensions/davidanson.vscode-markdownlint-0.60.0-universal
+2025-07-17 20:19:41.964 [info] Extension signature verification result for dbaeumer.vscode-eslint: Success. Executed: true. Duration: 1195ms.
+2025-07-17 20:19:41.995 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/dbaeumer.vscode-eslint-3.0.10-universal: dbaeumer.vscode-eslint
+2025-07-17 20:19:42.005 [info] Renamed to /home/shizai/.vscode-oss/extensions/dbaeumer.vscode-eslint-3.0.10-universal
+2025-07-17 20:19:42.229 [info] Extension signature verification result for ibm.output-colorizer: Success. Executed: true. Duration: 1281ms.
+2025-07-17 20:19:42.282 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/ibm.output-colorizer-0.1.2-universal: ibm.output-colorizer
+2025-07-17 20:19:42.291 [info] Renamed to /home/shizai/.vscode-oss/extensions/ibm.output-colorizer-0.1.2-universal
+2025-07-17 20:19:42.444 [info] Extension signature verification result for gruntfuggly.todo-tree: Success. Executed: true. Duration: 1278ms.
+2025-07-17 20:19:42.553 [info] Extension signature verification result for aaron-bond.better-comments: Success. Executed: true. Duration: 1163ms.
+2025-07-17 20:19:42.592 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal: gruntfuggly.todo-tree
+2025-07-17 20:19:42.602 [info] Renamed to /home/shizai/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal
+2025-07-17 20:19:42.666 [info] Extension signature verification result for yzhang.markdown-all-in-one: Success. Executed: true. Duration: 650ms.
+2025-07-17 20:19:42.678 [info] Extension signature verification result for gydunhn.vsc-essentials-core: Success. Executed: true. Duration: 1231ms.
+2025-07-17 20:19:42.688 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/aaron-bond.better-comments-3.0.2-universal: aaron-bond.better-comments
+2025-07-17 20:19:42.700 [info] Renamed to /home/shizai/.vscode-oss/extensions/aaron-bond.better-comments-3.0.2-universal
+2025-07-17 20:19:42.716 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/gydunhn.vsc-essentials-core-0.5.0-universal: gydunhn.vsc-essentials-core
+2025-07-17 20:19:42.741 [info] Extension signature verification result for oderwat.indent-rainbow: Success. Executed: true. Duration: 1463ms.
+2025-07-17 20:19:42.747 [info] Renamed to /home/shizai/.vscode-oss/extensions/gydunhn.vsc-essentials-core-0.5.0-universal
+2025-07-17 20:19:42.770 [info] Extension signature verification result for usernamehw.errorlens: Success. Executed: true. Duration: 1263ms.
+2025-07-17 20:19:42.784 [info] Extension signature verification result for bierner.emojisense: Success. Executed: true. Duration: 1337ms.
+2025-07-17 20:19:42.831 [info] Extension signature verification result for firefox-devtools.vscode-firefox-debug: Success. Executed: true. Duration: 1222ms.
+2025-07-17 20:19:42.932 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/bierner.emojisense-0.10.0-universal: bierner.emojisense
+2025-07-17 20:19:42.945 [info] Extension signature verification result for tombonnike.vscode-status-bar-format-toggle: Success. Executed: true. Duration: 1265ms.
+2025-07-17 20:19:42.950 [info] Renamed to /home/shizai/.vscode-oss/extensions/bierner.emojisense-0.10.0-universal
+2025-07-17 20:19:42.965 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/firefox-devtools.vscode-firefox-debug-2.15.0-universal: firefox-devtools.vscode-firefox-debug
+2025-07-17 20:19:42.984 [info] Extension signature verification result for alefragnani.bookmarks: Success. Executed: true. Duration: 1245ms.
+2025-07-17 20:19:43.003 [info] Extension signature verification result for xabikos.javascriptsnippets: Success. Executed: true. Duration: 1324ms.
+2025-07-17 20:19:43.014 [info] Renamed to /home/shizai/.vscode-oss/extensions/firefox-devtools.vscode-firefox-debug-2.15.0-universal
+2025-07-17 20:19:43.050 [info] Extension signature verification result for christian-kohler.path-intellisense: Success. Executed: true. Duration: 1374ms.
+2025-07-17 20:19:43.113 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/usernamehw.errorlens-3.26.0-universal: usernamehw.errorlens
+2025-07-17 20:19:43.159 [info] Renamed to /home/shizai/.vscode-oss/extensions/usernamehw.errorlens-3.26.0-universal
+2025-07-17 20:19:43.182 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/xabikos.javascriptsnippets-1.8.0-universal: xabikos.javascriptsnippets
+2025-07-17 20:19:43.214 [info] Renamed to /home/shizai/.vscode-oss/extensions/xabikos.javascriptsnippets-1.8.0-universal
+2025-07-17 20:19:43.225 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/tombonnike.vscode-status-bar-format-toggle-3.2.0-universal: tombonnike.vscode-status-bar-format-toggle
+2025-07-17 20:19:43.244 [info] Renamed to /home/shizai/.vscode-oss/extensions/tombonnike.vscode-status-bar-format-toggle-3.2.0-universal
+2025-07-17 20:19:43.333 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/yzhang.markdown-all-in-one-3.6.2-universal: yzhang.markdown-all-in-one
+2025-07-17 20:19:43.351 [info] Renamed to /home/shizai/.vscode-oss/extensions/yzhang.markdown-all-in-one-3.6.2-universal
+2025-07-17 20:19:43.488 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/christian-kohler.path-intellisense-2.8.0-universal: christian-kohler.path-intellisense
+2025-07-17 20:19:43.506 [info] Renamed to /home/shizai/.vscode-oss/extensions/christian-kohler.path-intellisense-2.8.0-universal
+2025-07-17 20:19:43.630 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/alefragnani.bookmarks-13.5.0-universal: alefragnani.bookmarks
+2025-07-17 20:19:43.642 [info] Renamed to /home/shizai/.vscode-oss/extensions/alefragnani.bookmarks-13.5.0-universal
+2025-07-17 20:19:44.728 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/oderwat.indent-rainbow-8.3.1-universal: oderwat.indent-rainbow
+2025-07-17 20:19:44.820 [info] Renamed to /home/shizai/.vscode-oss/extensions/oderwat.indent-rainbow-8.3.1-universal
+2025-07-17 20:19:47.068 [info] Extension signature verification result for christian-kohler.npm-intellisense: Success. Executed: true. Duration: 658ms.
+2025-07-17 20:19:47.154 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/christian-kohler.npm-intellisense-1.4.5-universal: christian-kohler.npm-intellisense
+2025-07-17 20:19:47.161 [info] Renamed to /home/shizai/.vscode-oss/extensions/christian-kohler.npm-intellisense-1.4.5-universal
+2025-07-17 20:19:47.210 [info] Extension installed successfully: gydunhn.javascript-essentials vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.211 [info] Extension installed successfully: davidanson.vscode-markdownlint vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.211 [info] Extension installed successfully: dbaeumer.vscode-eslint vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.212 [info] Extension installed successfully: ibm.output-colorizer vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.212 [info] Extension installed successfully: gruntfuggly.todo-tree vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.212 [info] Extension installed successfully: aaron-bond.better-comments vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.213 [info] Extension installed successfully: gydunhn.vsc-essentials-core vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.214 [info] Extension installed successfully: bierner.emojisense vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.215 [info] Extension installed successfully: firefox-devtools.vscode-firefox-debug vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.215 [info] Extension installed successfully: usernamehw.errorlens vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.216 [info] Extension installed successfully: xabikos.javascriptsnippets vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.216 [info] Extension installed successfully: tombonnike.vscode-status-bar-format-toggle vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.216 [info] Extension installed successfully: yzhang.markdown-all-in-one vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.217 [info] Extension installed successfully: christian-kohler.path-intellisense vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.217 [info] Extension installed successfully: alefragnani.bookmarks vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.217 [info] Extension installed successfully: oderwat.indent-rainbow vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:19:47.218 [info] Extension installed successfully: christian-kohler.npm-intellisense vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:20:21.953 [info] Getting Manifest... knisterpeter.vscode-github
+2025-07-17 20:20:22.584 [info] Installing extension: knisterpeter.vscode-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-17 20:20:25.722 [info] Extension signature verification result for knisterpeter.vscode-github: Success. Executed: true. Duration: 1451ms.
+2025-07-17 20:20:26.366 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/knisterpeter.vscode-github-0.30.7-universal: knisterpeter.vscode-github
+2025-07-17 20:20:26.415 [info] Renamed to /home/shizai/.vscode-oss/extensions/knisterpeter.vscode-github-0.30.7-universal
+2025-07-17 20:20:26.529 [info] Extension installed successfully: knisterpeter.vscode-github vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:22:57.997 [info] Getting Manifest... devsense.phptools-vscode
+2025-07-17 20:22:59.115 [info] Installing extension: devsense.phptools-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-17 20:23:00.721 [info] Getting Manifest... devsense.composer-php-vscode
+2025-07-17 20:23:01.314 [info] Getting Manifest... devsense.profiler-php-vscode
+2025-07-17 20:23:01.844 [info] Getting Manifest... devsense.intelli-php-vscode
+2025-07-17 20:23:02.357 [info] Installing extension: devsense.composer-php-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:23:02.358 [info] Installing extension: devsense.profiler-php-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:23:02.358 [info] Installing extension: devsense.intelli-php-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json","path":"/home/shizai/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-17 20:23:07.554 [info] Extension signature verification result for devsense.composer-php-vscode: Success. Executed: true. Duration: 2780ms.
+2025-07-17 20:23:07.594 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/devsense.composer-php-vscode-1.59.17515-universal: devsense.composer-php-vscode
+2025-07-17 20:23:07.601 [info] Renamed to /home/shizai/.vscode-oss/extensions/devsense.composer-php-vscode-1.59.17515-universal
+2025-07-17 20:23:08.538 [info] Extension signature verification result for devsense.profiler-php-vscode: Success. Executed: true. Duration: 3257ms.
+2025-07-17 20:23:08.591 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/devsense.profiler-php-vscode-1.59.17515-universal: devsense.profiler-php-vscode
+2025-07-17 20:23:08.599 [info] Renamed to /home/shizai/.vscode-oss/extensions/devsense.profiler-php-vscode-1.59.17515-universal
+2025-07-17 20:23:26.286 [info] Extension signature verification result for devsense.phptools-vscode: Success. Executed: true. Duration: 1478ms.
+2025-07-17 20:23:26.820 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/devsense.phptools-vscode-1.59.17515-linux-x64: devsense.phptools-vscode
+2025-07-17 20:23:26.830 [info] Renamed to /home/shizai/.vscode-oss/extensions/devsense.phptools-vscode-1.59.17515-linux-x64
+2025-07-17 20:23:59.231 [info] Extension signature verification result for devsense.intelli-php-vscode: Success. Executed: true. Duration: 1572ms.
+2025-07-17 20:24:01.448 [info] Extracted extension to file:///home/shizai/.vscode-oss/extensions/devsense.intelli-php-vscode-0.12.17635-linux-x64: devsense.intelli-php-vscode
+2025-07-17 20:24:01.454 [info] Renamed to /home/shizai/.vscode-oss/extensions/devsense.intelli-php-vscode-0.12.17635-linux-x64
+2025-07-17 20:24:01.513 [info] Extension installed successfully: devsense.composer-php-vscode vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:24:01.513 [info] Extension installed successfully: devsense.profiler-php-vscode vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:24:01.514 [info] Extension installed successfully: devsense.phptools-vscode vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json
+2025-07-17 20:24:01.514 [info] Extension installed successfully: devsense.intelli-php-vscode vscode-userdata:/home/shizai/.vscode-oss/extensions/extensions.json

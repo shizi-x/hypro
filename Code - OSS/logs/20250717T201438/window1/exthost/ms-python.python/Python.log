@@ -1,0 +1,219 @@
+2025-07-17 20:16:30.327 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:29606)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:106190)
+	at new v (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async Wb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13382)
+	at async Wb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13345)
+	at async Wb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:12801)]
+2025-07-17 20:16:30.327 [info] Starting Environment refresh
+2025-07-17 20:16:30.327 [info] Searching for interpreters in posix paths locator
+2025-07-17 20:16:30.328 [info] Searching for pyenv environments
+2025-07-17 20:16:30.328 [info] Searching for conda environments
+2025-07-17 20:16:30.328 [info] Searching for global virtual environments
+2025-07-17 20:16:30.328 [info] Searching for custom virtual environments
+2025-07-17 20:16:30.328 [info] pyenv is not installed
+2025-07-17 20:16:30.328 [info] Finished searching for pyenv environments: 22 milliseconds
+2025-07-17 20:16:30.328 [info] Finished searching for custom virtual envs: 21 milliseconds
+2025-07-17 20:16:30.328 [info] > conda info --json
+2025-07-17 20:16:30.328 [info] Finished searching for global virtual envs: 43 milliseconds
+2025-07-17 20:16:30.330 [info] Found: /bin/python --> /bin/python3.13
+2025-07-17 20:16:30.332 [info] Found: /bin/python2 --> /bin/python2.7
+2025-07-17 20:16:30.332 [info] Found: /bin/python2.7 --> /bin/python2.7
+2025-07-17 20:16:30.333 [info] Found: /bin/python3 --> /bin/python3.13
+2025-07-17 20:16:30.333 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-07-17 20:16:30.373 [info] Found: /sbin/python --> /sbin/python3.13
+2025-07-17 20:16:30.373 [info] Found: /sbin/python2 --> /sbin/python2.7
+2025-07-17 20:16:30.373 [info] Found: /sbin/python2.7 --> /sbin/python2.7
+2025-07-17 20:16:30.373 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-07-17 20:16:30.373 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-07-17 20:16:30.381 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-07-17 20:16:30.381 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2025-07-17 20:16:30.382 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2025-07-17 20:16:30.382 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-07-17 20:16:30.382 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-07-17 20:16:30.431 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-07-17 20:16:30.431 [info] Found: /usr/sbin/python2 --> /usr/sbin/python2.7
+2025-07-17 20:16:30.431 [info] Found: /usr/sbin/python2.7 --> /usr/sbin/python2.7
+2025-07-17 20:16:30.431 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-07-17 20:16:30.432 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-07-17 20:16:30.453 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.468 [info] > /bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.482 [warning] [Error: Command failed: /bin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:414:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:351:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py'
+}
+2025-07-17 20:16:30.482 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2025-07-17 20:16:30.488 [info] > /bin/python2 ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.496 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.547 [info] Finished searching for interpreters in posix paths locator: 286 milliseconds
+2025-07-17 20:16:30.561 [info] > /sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.578 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.585 [info] > /usr/bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.587 [warning] [Error: Command failed: /sbin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /sbin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:414:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:351:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/sbin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py'
+}
+2025-07-17 20:16:30.587 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2025-07-17 20:16:30.595 [info] > /sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.608 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.609 [info] Environments refresh paths discovered (event): 350 milliseconds
+2025-07-17 20:16:30.609 [info] Environments refresh paths discovered: 350 milliseconds
+2025-07-17 20:16:30.612 [warning] [Error: Command failed: /usr/bin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:414:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:351:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py'
+}
+2025-07-17 20:16:30.612 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2025-07-17 20:16:30.633 [info] > /usr/bin/python2 ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.691 [info] > /usr/sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.705 [warning] [Error: Command failed: /usr/sbin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/sbin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:414:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:351:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/sbin/python2 -I /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py'
+}
+2025-07-17 20:16:30.705 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2025-07-17 20:16:30.713 [info] > /usr/sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-07-17 20:16:30.785 [info] Environments refresh finished (event): 526 milliseconds
+2025-07-17 20:16:30.795 [info] Environment refresh took 536 milliseconds
+2025-07-17 20:16:30.804 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 546ms, has a falsy return value, Arg 1: undefined, Arg 2: {"started":1752772590193}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:29606)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:99396)
+  	at C.activate (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+  	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+]
+2025-07-17 20:16:30.804 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:29606)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:99396)
+	at C.activate (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-07-17 20:16:30.804 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:29606)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:99396)
+	at C.activate (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/shizai/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-07-17 20:16:30.836 [info] Python interpreter path: /bin/python
+2025-07-17 20:16:32.317 [info] Starting Jedi language server for default.

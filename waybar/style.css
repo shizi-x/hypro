@@ -1,0 +1,215 @@
+* {
+    font-family: Odin Rounded, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+window#waybar.chromium {
+    background-color: #000000;
+    border: none;
+}
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+/* you can set a style on hover for any module like this */
+#pulseaudio:hover {
+    background-color: #83838D;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#mode {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#power-profiles-daemon,
+#mpd {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+#window,
+#workspaces {
+    margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    background-color: rgba(0, 0, 0, 0.6);
+  
+}
+
+#battery {
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+#battery.charging, #battery.plugged {
+    color: #000000;
+    background-color: rgba(0, 143, 17, 0.6);
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: #9C1205;
+    color: #000000;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#power-profiles-daemon {
+    padding-right: 15px;
+}
+
+#power-profiles-daemon.performance {
+    background-color: #9C1205;
+    color: #000000;
+}
+
+#power-profiles-daemon.balanced {
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+#power-profiles-daemon.power-saver {
+    background-color: rgba(0, 143, 17, 0.6);
+    color: #000000;
+}
+
+label:focus {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#cpu {
+    background-color: rgba(0, 0, 0, 0.6);
+ 
+}
+
+#memory {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#backlight {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#network {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#network.disconnected {
+    background-color: #9C1205;
+    color: #000000;
+}
+
+#pulseaudio {
+    background-color: rgba(0, 0, 0, 0.6);
+   
+}
+
+#pulseaudio.muted {
+    background-color: #9C1205;
+    color: #000000;
+}
+
+#wireplumber {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#wireplumber.muted {
+    background-color: #9C1205;
+    color: #000000;
+}
+
+#temperature {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#temperature.critical {
+    background-color: #9C1205;
+    color: #000000;
+}
+

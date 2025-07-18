@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "window.titleSeparator": "",
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle"
+}
