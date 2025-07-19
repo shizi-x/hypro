@@ -3,17 +3,16 @@
 //////////////////
 
 This is a simple, effective, and fast Hyprland dotfile configuration. 
-It features a single sleek theme with a modern aesthetic, customizable wallpaper options, smooth animations for a fluid experience, and optimized keybindings for enhanced productivity. 
+It features a single sleek theme with a modern aesthetic, customizable wallpaper options, 
+smooth animations for a fluid experience, and optimized keybindings for enhanced productivity. 
 You can easily change the wallpaper to suit your style.
-
-# Inspirations
 
 The following projects have inspired me:
 
-    https://github.com/HyDE-Project/HyDE
-    https://github.com/JaKooLit/Hyprland-Dots
-    https://github.com/prasanthrangan/hyprdots
-    https://github.com/sudo-harun/dotfiles
-    https://github.com/dianaw353/hyprland-configuration-rootfs
-    https://github.com/mylinuxforwork/dotfiles
+  -  https://github.com/HyDE-Project/HyDE
+  -  https://github.com/JaKooLit/Hyprland-Dots
+  -  https://github.com/prasanthrangan/hyprdots
+  -  https://github.com/sudo-harun/dotfiles
+  -  https://github.com/dianaw353/hyprland-configuration-rootfs
+  -  https://github.com/mylinuxforwork/dotfiles
 
