@@ -8,8 +8,9 @@
     "spacing": 6, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-	"pulseaudio",
-        "backlight"	
+    "power-profiles-daemon",
+    "backlight",
+    "pulseaudio"
     ],
     "modules-center": [
         "clock"
@@ -17,7 +18,7 @@
     "modules-right": [
 	"network",
 	"battery",
-        "power-profiles-daemon"
+    "custom/power"
     ],
 
     "clock": {
@@ -59,15 +60,15 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "    {essid}",
-        "format-ethernet": "",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "format-ethernet": "  {essid}",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
         "format-disconnected": " ⚠ ",
 	"on-click": "nm-connection-editor"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}   {volume}%",
+        "format": "{volume}% {icon}",
         "format-muted": "  {format_source}",
         "format-source": "  {volume}%",
         "format-source-muted": "  ",
@@ -82,4 +83,10 @@
         },
         "on-click": "pavucontrol"
     },
+
+    "custom/power": {
+    "format": " ⏻ ",
+    "tooltip-format": "Power off",
+    "on-click": "/usr/local/bin/poff"
+    }
 }
