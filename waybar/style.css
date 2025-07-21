@@ -46,7 +46,13 @@ button:hover {
 #backlight:hover {
     background-color: #83838D;
 }
-#power-profiles-daemon:hover {
+#power-profiles-daemon.performance:hover {
+    background-color: #83838D;
+}
+#power-profiles-daemon.balanced:hover {
+    background-color: #83838D;
+}
+#power-profiles-daemon.power-saver:hover {
     background-color: #83838D;
 }
 #clock:hover {
@@ -58,8 +64,15 @@ button:hover {
 #battery:hover {
     background-color: #83838D;
 }
+#battery.charging:hover {
+    background-color: #83838D;
+}
+#battery.plugged:hover {
+    background-color: #83838D;
+}
 #custom-power:hover {
     background-color: #9C1205;
+    color: #000000;
 }
 
 #clock,

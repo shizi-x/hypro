@@ -28,6 +28,7 @@
     },
     "backlight": {
         // "device": "acpi_video1",
+        "tooltip-format": "Built-in Screen Luminosity",
         "format": "{icon}   {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
@@ -38,7 +39,7 @@
             "critical": 20
         },
         "format": "{icon}   {capacity}%",
-        "format-full": "{icon}   {capacity}%",
+        "format-full": "{icon}",
         "format-charging": "   {capacity}%",
         "format-plugged": "   {capacity}%",
         "format-alt": "{time}   {icon}",
