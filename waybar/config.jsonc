@@ -28,7 +28,7 @@
     },
     "backlight": {
         // "device": "acpi_video1",
-        "tooltip-format": "Built-in Screen Luminosity",
+        "tooltip-format": "Built-in Main Display Luminosity",
         "format": "{icon}   {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
@@ -40,8 +40,8 @@
         },
         "format": "{icon}   {capacity}%",
         "format-full": "{icon}",
-        "format-charging": "   {capacity}%",
-        "format-plugged": "   {capacity}%",
+      //  "format-plugged": "   {capacity}%",
+        "format-charging": "   {capacity}%",
         "format-alt": "{time}   {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
