@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Script to update and upgrade Arch Linux, including AUR packages and maintenance
 
@@ -8,6 +8,7 @@ set -e
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
+BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # Check if script is run with sudo
@@ -16,7 +17,7 @@ if [[ $EUID -eq 0 ]]; then
     exit 1
 fi
 
-echo "
+echo -e "${BLUE}
 
 /////////////////////////////////////////////////////////////////////"
 echo "//////////////////////     SYSTEM UPDATE     ////////////////////////"
@@ -24,18 +25,18 @@ echo "/////////////////////////////////////////////////////////////////////"
 
 
 # Check for internet connectivity
-echo "
+echo -e "${BLUE}
 > Checking internet connectivity...
 
-     "
+    ${NC}"
 if ! ping -c 1 archlinux.org &> /dev/null; then
     echo -e "${RED}Error: No internet connection. Please check your network and try again.${NC}"
     exit 1
 fi
 
 # Check for Arch news (requires informant or manual check)
-echo "
-> Checking for Arch Linux news..."
+echo -e "${BLUE}
+> Checking for Arch Linux news...${NC}"
 
 if command -v informant >/dev/null 2>&1; then
     if ! sudo informant check; then
@@ -51,49 +52,49 @@ if command -v informant >/dev/null 2>&1; then
     fi
 fi
 # Update Arch keyring first to avoid signature issues
-echo "
+echo -e "${BLUE}
 > Updating Arch Linux keyring...
 
-     "
-sudo pacman -Syu archlinux-keyring
+     ${NC}"
+sudo pacman -Syy --noconfirm archlinux-keyring blackarch-keyring
 
 # Perform full system update
-echo "
-> Performing full system update:"
-echo "
+echo -e "${BLUE}
+> Performing full system update:${NC}"
+echo -e "${BLUE}
 > Update through official repositories...
 	
-	"
+	${NC}"
 sudo pacman -Syu --noconfirm
 
 # Update AUR packages if yay or paru is installed
 if command -v yay >/dev/null 2>&1; then
-    echo "
+    echo -e "${BLUE}
 > Updating AUR packages with yay...
 	
-	"
+	${NC}"
     yay -Syu --noconfirm
 elif command -v paru >/dev/null 2>&1; then
-    echo "
+    echo -e "${BLUE}
 > Updating AUR packages with paru...
 	
-	"
+	${NC}"
     paru -Syu --noconfirm
 else
     echo -e "${RED}No AUR helper (yay or paru) found. Skipping AUR updates.${NC}"
 fi
 
 # Clean package cache to save space
-echo "
+echo -e "${BLUE}
 > Cleaning package cache...
 	
-	"
+	${NC}"
 sudo pacman -Sc --noconfirm
 paccache -r -k 1
 
 # Check for orphaned packages and remove them
-echo "
-> Checking for orphaned packages..."
+echo -e "${BLUE}
+> Checking for orphaned packages...${NC}"
 if [[ -n $(pacman -Qdtq) ]]; then
     sudo pacman -Rns $(pacman -Qdtq) --noconfirm
 else
@@ -101,10 +102,10 @@ else
 fi
 
 # Check for broken dependencies
-echo "
+echo -e "${BLUE}
 > Checking for broken dependencies...
 	
-	"
+	${NC}"
 sudo pacman -Dk || {
     echo -e "${RED}Broken dependencies found. Attempting to fix...${NC}"
     sudo pacman -Syyu --noconfirm
