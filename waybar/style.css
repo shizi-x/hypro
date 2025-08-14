@@ -103,11 +103,6 @@ button:hover {
     background-color: rgba(218, 165, 32, 0.7);
 }
 
-#battery.full {
-    color: #000000;
-    background-color: rgba(0, 143, 17, 0.6);
-}
-
 @keyframes blink {
     to {
         background-color: #ffffff;
